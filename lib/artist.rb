@@ -13,7 +13,7 @@ class Artist
     if found_artist
       found_artist
     else
-      artist = self.new(name)
+      artist = self.new(artist_name)
       artist.save
       artist
     end
